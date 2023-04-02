@@ -56,7 +56,7 @@ class Extension {
         this._indicator.connect('button-press-event', () => {
             try {
                 const url = this.settings.get_string('url');
-                let [out, status] = GLib.spawn_command_line_sync(`curl -X POST "${url}" -d '{"on":"t"}' -H "Content-Type: application/json"`);
+                let [res, out, err, status] = GLib.spawn_command_line_sync(`curl -X POST "${url}" -d '{"on":"t"}' -H "Content-Type: application/json"`);
 
                 if (status !== 0)
                     throw new Error(`Command failed with status ${status}`);
