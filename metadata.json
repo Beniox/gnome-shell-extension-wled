@@ -1,0 +1,11 @@
+{
+  "name": "Wled",
+  "description": "Toggle your WLED with just one click. \n\n You need a WLED device with the API enabled : https://kno.wled.ge",
+  "uuid": "wled@beniox.github.io",
+  "shell-version": [
+    "43"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.wled",
+  "version": 1,
+  "url": ""
+}

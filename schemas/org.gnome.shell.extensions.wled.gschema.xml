@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.wled" path="/org/gnome/shell/extensions/wled/">
+        <key name="url" type="s">
+            <default>'http://wled.local/json'</default>
+            <summary>URL/IP to WLED</summary>
+            <description>URL/IP to WLED</description>
+        </key>
+    </schema>
+</schemalist>
